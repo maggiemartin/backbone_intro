@@ -2,6 +2,9 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+
+$testfont: 'PT Sans', sans-serif;
+//font-family: 'Francois One', sans-serif;
 $iceblue: hsla(175, 28%, 78%, 1);
 body {
   background: #fafafa;
@@ -10,6 +13,7 @@ body {
   background-image:url("/images/iceberg.jpeg");
   background-size: cover;
   height:600px;
+
   font-size: 62.5%;
 
 }
@@ -29,12 +33,14 @@ body {
   opacity: .6;
   h1 {
 
-    font-size: 60px;
+    font-size: 4.0em;
     line-height: 1;
-    width: 50%;
 
+    width: 100%;
+
+    text-align: center;
     letter-spacing: -1px;
-    margin-left: 10%;
+
   }
   p{
     font-weight: bold;
@@ -64,7 +70,8 @@ body {
   button{
   margin-top: 12px;
   position: absolute;
-  margin-left: 60%;
+  margin-left: 62%;
+
   a{
     text-decoration: none;
     color: black;
@@ -87,14 +94,28 @@ body {
   }
 }
 
-// fade in //
-
-.menu{
-  width: 100%;
-  margin-top: 100px;
-  height: 200px;
-  opacity: .9;
-  background-color: black;
 
 
+//main.html
+.hero-unit-two{
+  margin-left: 30%;
+  width: 60%;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color:   white;
+  padding: 60px;
+  position: relative;
+  transition: opacity 1s ease;
+  opacity: .6;
+  h1 {
+
+    font-size: 60px;
+    line-height: 1;
+    width: 50%;
+
+    letter-spacing: -1px;
+    margin-left: 10%;
+  }
 }
