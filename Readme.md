@@ -1,3 +1,3 @@
-## Yo, I'm a Readme
+## Intro to Backbone
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+In this repo, I have begun to play around with Backbone JS, making a fake "register with us" mock-up site.
